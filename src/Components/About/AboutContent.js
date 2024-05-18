@@ -31,7 +31,7 @@ const AboutContent = () => {
     
 
   return (
-    <div className="about">
+    <div className="about" id="scrollspyHeading2">
         <div className="left">
             <h1>Who I am ?</h1>
               <div className="owl-carousel text-rotation">

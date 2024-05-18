@@ -59,6 +59,29 @@ function Navbar() {
       </div>
       
     </div>
+
+
+    // <nav id="navbar-example2" className={`navbar bg-body-tertiary px-3 mb-3 ${color ? "header header-bg" : "header"}`}>
+    //   <Link class="navbar-brand" href="#" to="/"> <h1>Porfolio</h1> </Link>
+    //   <ul className={`nav nav-pills ${click ? "nav-menu active" : "nav-menu"}`}>
+
+    //     <li class="nav-item">
+    //       <Link className='nav-link' href="#scrollspyHeading1" to="/">Home</Link>
+    //     </li>
+    //     <li class="nav-item">
+    //       <Link class="nav-link" href="#scrollspyHeading2" to="/about">About</Link>
+    //     </li>
+    //     <li class="nav-item">
+    //       <Link class="nav-link" href="#scrollspyHeading3" to="/skill">Skills</Link>
+    //     </li>
+    //     <li class="nav-item">
+    //       <Link class="nav-link" href="#scrollspyHeading4" to="/project">Project</Link>
+    //     </li>
+    //     <li class="nav-item">
+    //       <Link class="nav-link" href="#scrollspyHeading5" to="/contact">Contact</Link>
+    //     </li>
+    //   </ul>
+    // </nav>
   )
 }
 

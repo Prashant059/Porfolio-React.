@@ -1,6 +1,7 @@
 import "./Footer.modules.css";
-import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaArrowUp } from "react-icons/fa";
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
 // import upwardarrow from "../assets/upwardarrow.jpg";
+import { UpSquareTwoTone } from '@ant-design/icons'
 
 import React from 'react'
 
@@ -57,7 +58,8 @@ const Footer = () => {
       </div>
         <div className="below">
             <div className="scrollBtn" onClick={onTop}>
-              <FaArrowUp size={30} style={{ color: "red" }} />
+              {/* <FaArrowUp size={30} style={{ color: "red" }} /> */}
+              <UpSquareTwoTone style={{ fontSize: '30px', padding: '10px 20px' }}/>
             </div>
         </div>
         <div className="below_desc">

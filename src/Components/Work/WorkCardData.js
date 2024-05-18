@@ -22,7 +22,7 @@ const projectCardData = [
         title: "React Portfolio",
         text: "Dynamic and engaging React Portfolio showcasing my proficiency in web development. With a modern and responsive design, this portfolio highlights my skills, projects, and achievements in a visually appealing manner. Explore my work and experience seamless navigation powered by React's robust capabilities.",
         view: "https://react-portfolio-3ea91.web.app/",
-        source: "https://github.com/Prashant059/E-Commerece."
+        source: "https://github.com/Prashant059/Porfolio-React."
     }
 
 ]

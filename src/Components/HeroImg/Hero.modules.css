@@ -1,9 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.content p {
+  /* border-right: solid 3px rgba(0,255,0,.75); */
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+}
+
+/* Animation */
+.content p {
+  animation: animated-text 4s steps(40,end) 1s 1 normal both,
+             animated-cursor 600ms steps(40,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  /* to{width: 472px;} */
+  to{width: 100%}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}
+
+.title {
+    font-family: "Cairo";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+ .title h1{
+    background-image: url(https://media.giphy.com/media/xUOxeRW7TtD8BWJ47C/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    margin: 10px 0;
+  }
 .mask{
     width: 100%;
     height: 100vh;
     position: relative;
 }
-
 .into-img {
     width: 100%;
     height: 100%;
@@ -52,6 +103,6 @@
         
     }
     .hero .content p{
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 }

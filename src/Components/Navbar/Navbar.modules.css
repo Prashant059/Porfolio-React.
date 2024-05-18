@@ -18,6 +18,7 @@
 .nav-menu li{
     padding: 0 1rem;
     list-style-type: none;
+    z-index: 10;
 }
 .nav-menu li a{
     font-size: 1.2rem;

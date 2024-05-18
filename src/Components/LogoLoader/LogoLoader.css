@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #12293f;
+}
+
+.logo {
+  width: 25%;
+}
+
+@keyframes custom-animation {
+  0% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-custom {
+  animation: custom-animation 4.5s infinite; 
+}
+
+.mix-blend-lighten {
+  mix-blend-mode: lighten;
+}
