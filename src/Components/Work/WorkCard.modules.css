@@ -25,7 +25,7 @@
 .pro-details p{
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: justify;
+    text-align: justify;    
 }
 .pro-btns{
     display: flex;
@@ -34,6 +34,19 @@
 }
 .pro-btns .btn{
     padding: 0.5rem 1rem;
+}
+.pro-tech{
+    margin: 1.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+.pro-tech p{
+    white-space: nowrap;
+    font-size: 1rem;
+    text-align: center;
+    color: #45a29e;
 }
 
 @media screen and (max-width: 740px) {
