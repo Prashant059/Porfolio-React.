@@ -13,6 +13,25 @@
 .project-card{
     background: #1a1919;
     padding: 1.2rem 1rem;
+    transition: 0.5s ease-in-out;
+
+    height: 260px;
+}
+.project-card:hover{
+    height: 100%
+}
+.project-content{
+    position: relative; 
+    top: -245px; 
+    visibility: hidden;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+.project-card:hover .project-content{
+    top: 0;
+    visibility: visible;
+    transition-delay: 0.3s;
+    opacity: 1;
 }
 .project-card img{
     width: 100%;
@@ -23,9 +42,9 @@
     text-align: center;
 }
 .pro-details p{
+    position: relative;
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: justify;    
 }
 .pro-btns{
     display: flex;
