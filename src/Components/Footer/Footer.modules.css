@@ -69,8 +69,6 @@ p{
 }
 
 
-
-
 @media screen and (max-width: 640px) {
     .footer-container{
         display: flex;
@@ -78,6 +76,10 @@ p{
         align-items: center;
         flex-direction: column;
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .footer-container p, h4{
+        font-size: 1rem;
     }
     .mark h2{
         font-size:medium;
@@ -88,9 +90,18 @@ p{
         left: 13.5rem;
         bottom: .7rem;
     }
-    .below_desc h2{
-        width: 21rem;
-        font-size:smaller;
+    .below_desc h5{
+        /* width: 23rem; */
+        font-size:x-small;
+    }
+    .right h4{
+        font-size: 1rem;
+    }
+    .right .socials {
+        margin-top: .5rem;
+    }
+    .below{
+        margin-top: .1rem;
     }
     
 }

@@ -80,7 +80,7 @@ const projectCardData = [
     },
     {
         imgsrc: SixteethPro,
-        title: "Nutition Meter",
+        title: "Nutrition Meter",
         text: "Nutrition Meter is a React-based application designed to help users track their daily nutritional intake. It provides a user-friendly interface for logging meals and snacks, displaying a detailed breakdown of calories, macronutrients, and micronutrients consumed. Users can set personal dietary goals and monitor",
         view: "https://prashant059.github.io/Nutrition-Meter/",
         source: "https://github.com/Prashant059/Nutrition-Meter",

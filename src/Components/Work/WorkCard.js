@@ -4,7 +4,6 @@ import "./WorkCard.modules.css";
 import React from 'react'
 
 const WorkCard = (props) => {
-  console.log(props);
   return (
     <div className="project-card container-fluid text-center">
       <img src={props.imgsrc} alt={props.title} />

@@ -33,15 +33,6 @@ const App = () => {
           </Routes>
         )}
       </AnimatePresence>
-
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Skill" element={<Skill />} />
-        <Route path="/Project" element={<Project />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes> */}
-
      </>
   );
 }
